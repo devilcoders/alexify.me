@@ -1,0 +1,24 @@
+header.tc.mt4
+  img.br-100(src="../images/avatar.jpg"
+             alt="Alexey Topolyanskiy"
+             width="100"
+            )
+
+  hgroup
+    h1.f1.fw4.black-70.abel.mb3.mt2.tracked-tight Alexey Topolyanskiy
+    h2.f5.black-50.fw4.ttu.tracked-mega.abel Web Designer & Developer
+
+  hr.w-10.mt4.bt-0.bb.b--solid.b--light-gray
+
+  nav.mt4
+    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#about") about me
+    span.black-30
+      | /
+    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#portfolio") potfolio
+    span.black-30
+     | /
+    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#resume") resume
+    span.black-30
+      | /
+    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#contact") contact
+

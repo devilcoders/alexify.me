@@ -1,0 +1,23 @@
+article#portfolio.mt6
+  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4
+    | Some of my works can be found here
+
+  p.lh-copy.gray.f5.f4-ns
+    | Obviously, there is more to show, but I'm pretty much sure this is enough to get the idea. I do music & photo stuff as a hobby, and there are more people involved. This also NOT includes all work that I did for advertising agencies in terms of visual ads and souvenir products design.
+
+
+  ul.list.pl0.f3.fw6.lh-title.bt.b--light-gray.pt3
+    li.dib.mr4
+      a.link.black(href="https://github.com/devilcoders", target="_blank") Github
+    li.dib.mr4
+      a.link.pink(href="https://dribbble.com/devilcoders", target="_blank") Dribbble
+    li.dib.mr4
+      a.link.blue(href="https://www.behance.net/devilcoders", target="_blank") Behanced
+    li.dib.mr4
+      a.link.dark-gray(href="https://unsplash.com/@devilcoders", target="_blank") Unsplash
+    li.dib.mr4
+      a.link.green(href="https://audiojungle.net/user/x-intent/portfolio", target="_blank")
+        | Audiojungle
+    li.dib.mr4
+      a.link.orange(href="https://soundcloud.com/user8060851/sets/kadath", target="_blank")
+        | Soundcloud

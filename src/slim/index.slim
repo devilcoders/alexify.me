@@ -1,0 +1,34 @@
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+    title Alexey Topolyanskiy / Web Designer & Developer
+
+    link[
+      href="https://fonts.googleapis.com/css?family=Abel|Inconsolata:400,700"
+      rel="stylesheet"
+    ]
+
+  body.inconsolata.fs-a.mw7.center.ph3.ph5-ns
+
+    == partial('partials/header')
+
+    main.mt6
+      == partial('partials/about')
+      == partial('partials/portfolio')
+      == partial('partials/resume')
+      == partial('partials/contact')
+
+    == partial('partials/footer')
+
+    script(src='./js/app.js')
+
+    javascript:
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-49924349-1', 'auto');
+      ga('send', 'pageview');

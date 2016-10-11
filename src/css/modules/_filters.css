@@ -1,0 +1,9 @@
+.f-gs {
+  filter: grayscale();
+  transition: filter .3s ease-out;
+}
+
+.hover-f-gs-0:hover {
+  filter: grayscale(0);
+  transition: filter .3s ease-in;
+}

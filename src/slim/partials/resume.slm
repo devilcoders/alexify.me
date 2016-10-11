@@ -1,0 +1,163 @@
+article#resume.mt6.dark-gray
+  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4
+    | Resume
+
+  h2.lh-title Work History
+
+  ul.list.pl0
+    li.cf.mb4.mt4
+      .fl.w-25
+        time.fw6.f5 2015 - Now
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 First Data
+          h4.fw4.mt0 Seniour Application Analyst
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2014 - 2016
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Muzarena
+          h4.fw4.mt0 CTO, co-founder, co-owner
+
+          p.lh-copy.gray
+            | All backend and front-end development, DevOps, website design.
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2011 - 2015
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Spree Commerce Inc
+          h4.fw4.mt0 Senior Designer & Front End Developer
+
+          p.lh-copy.gray
+            | As the web designer at Spree, I work on all design aspects of our product. I work on spreecommerce.com website (not the current one), Spree Works SAAS project, conference websites and everything that is related to design in this company. Not only I design stuff but also code it working with HTML, CSS, Javascript, and Ruby On Rails.
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2010 - 2011
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Life Ensured
+          h4.fw4.mt0 Web Designer & Front End Developer
+
+          p.lh-copy.gray
+            | At LifeEnsured I designed and put in code few websites including lifeensured.com, alive.io and deceasedaccount.com. I worked with Perl developers and use Perl::TT in my work.
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2009 - 2011
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Zeodia
+          h4.fw4.mt0 Web Designer & Front End Developer
+
+          p.lh-copy.gray
+            | I work as web designer drawing and coding website design from day one. I also help with some Linux configuration and video editing engine stuff.
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2009 - 2011
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Vertaline
+          h4.fw4.mt0 Web Designer & Front End Developer
+
+          p.lh-copy.gray
+            | Social networks, e-commerce systems, and private websites design.
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2008 - 2009
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Webicom
+          h4.fw4.mt0 Web Developer
+
+          p.lh-copy.gray
+            | HTML/CSS/Javascript/PHP coding, CMS development, Project planning, web design
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2007 - 2008
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Uihh Inc
+          h4.fw4.mt0 Web Designer & Front End Developer
+
+          p.lh-copy.gray
+            | It was interesting project related to people search & match. I worked as web designer drawing and coding website designs.
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2006
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Eney
+          h4.fw4.mt0 Technical Designer
+
+          p.lh-copy.gray
+            | Technical design, pre-printing processing, engraving, etc.
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2005 - 2006
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 AS Print
+          h4.fw4.mt0 Technical Designer, Visual Designer, Printing
+
+          p.lh-copy.gray
+            | Technical design, pre-printing processing, engraving, packaging design, ads design, etc.
+
+    li.cf.mb4
+      .fl.w-25
+        time.fw6.f5 2005
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2 Lakor
+          h4.fw4.mt0 Technical Designer, Visual Designer, Printing
+
+          p.lh-copy.gray
+            | Technical design, pre-printing processing, engraving, packaging design, ads design, etc.
+
+
+  h2.lh-title Education
+
+  ul.list.pl0
+    li.cf.mt4
+      .fl.w-25
+        time.fw6.f5 2001 - 2005
+      .fl.w-75
+        hgroup
+          h3.mt0.mb2.lh-title Institute Of Informational Technologies & Employee Management
+          h4.fw4.mt0 Bachelor - Computer Systems in Management
+
+  h2.lh-title Skills
+
+  ul.list.pl0
+    li.ba.b--yellow.mb3
+      .pa3.w-90.bg-yellow.abel.fw6.dark-gray.f4 CSS
+
+    li.ba.b--blue.mb3
+      .pa3.w-90.bg-blue.abel.fw6.white.f4 HTML
+
+    li.ba.b--gold.mb3
+      .pa3.w-80.bg-gold.abel.fw6.dark-gray.f4 Javascript
+
+    li.ba.b--navy.mb3
+      .pa3.w-80.bg-navy.abel.fw6.white.f4 Photoshop
+
+    li.ba.b--light-yellow.mb3
+      .pa3.w-80.bg-light-yellow.abel.fw6.dark-gray.f4 Sketch
+
+    li.ba.b--red.mb3
+      .pa3.w-75.bg-red.abel.fw6.white.f4 Ruby
+
+    li.ba.b--dark-red.mb3
+      .pa3.w-75.bg-dark-red.abel.fw6.white.f4 Rails
+
+    li.ba.b--light-blue.mb3
+      .pa3.w-75.bg-light-blue.abel.fw6.dark-blue.f4 Linux
