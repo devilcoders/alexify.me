@@ -4,16 +4,15 @@ const webpack = require('webpack');
 
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
-const CompressionPlugin = require("compression-webpack-plugin")
+const CompressionPlugin = require('compression-webpack-plugin')
 
-const immutableCss      = require('immutable-css');
-const postcssImport     = require('postcss-import');
-const reporter          = require('postcss-reporter');
-const media             = require('postcss-custom-media');
-const queries           = require('css-mqpacker');
-const vars              = require('postcss-css-variables');
-const conditionals      = require('postcss-conditionals');
+const immutableCss      = require('immutable-css')
+const postcssImport     = require('postcss-import')
+const reporter          = require('postcss-reporter')
+const media             = require('postcss-custom-media')
+const queries           = require('css-mqpacker')
+const vars              = require('postcss-css-variables')
+const conditionals      = require('postcss-conditionals')
 
 const PATHS = {
   entries: __dirname + '/src/js/',
@@ -74,6 +73,12 @@ let config = {
     ]
   },
 
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/slim/index.slim'
+    })
+  ],
+
   postcss: function (webpack) {
     return [
       postcssImport({
@@ -84,7 +89,7 @@ let config = {
 };
 
 if (production) {
-  config.plugins = [
+  config.plugins.push(
     new ExtractTextPlugin('css/[name]-[chunkhash].css'),
     new webpack.NoErrorsPlugin(),
     new webpack.optimize.UglifyJsPlugin({
@@ -96,18 +101,8 @@ if (production) {
     }),
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurenceOrderPlugin(),
-    new HtmlWebpackPlugin({
-      template: './src/slim/index.slim'
-    }),
     new CompressionPlugin()
-    // new CompressionPlugin()
-  ];
-} else {
-  config.plugins = [
-    new HtmlWebpackPlugin({
-      template: './src/slim/index.slim'
-    })
-  ]
+  )
 }
 
 module.exports = config;
