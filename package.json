@@ -4,8 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --port 3000 --host 0.0.0.0 --inline --watch",
-    "build": "rm -rf dist && NODE_ENV=production ./node_modules/.bin/webpack"
+    "start": "I18n=en webpack-dev-server --port 3000 --host 0.0.0.0 --inline --watch",
+    "build": "rm -rf dist && I18n=en NODE_ENV=production ./node_modules/.bin/webpack"
   },
   "keywords": [],
   "author": "",
@@ -18,10 +18,12 @@
     "compression-webpack-plugin": "^0.3.1",
     "css-loader": "^0.14.5",
     "css-mqpacker": "^5.0.1",
+    "eslint": "^3.7.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.19.0",
+    "i18n-webpack-plugin": "^0.3.0",
     "image-loader": "^0.0.1",
     "image-webpack-loader": "^2.0.0",
     "immutable-css": "^1.1.2",

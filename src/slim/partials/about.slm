@@ -1,18 +1,8 @@
 article#about.mt6
-  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4
-    | About Me
+  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4 = I18n.about
 
-  p.lh-copy.gray.mt4.f5.f4-ns
-    | Writing clean valid code and designing web applications is my passion. It's part of my everyday life, and I'm really enjoying it. I started programming in school and since then fall in love with software development.
-
-  p.lh-copy.gray.mt4.f5.f4-ns
-    |  After I graduated I decided to try myself in design and spent few years working in printing and advertising agencies. At some point, I finally get to what I'm doing now - combining design & programming skills to build user interfaces for the web.
-
-  p.lh-copy.gray.mt4.f5.f4-ns
-    | I love trying new technologies, finding new ways of doing things in a simpler and clever way, learning new things.
-
-  p.lh-copy.gray.mt4.mb6.f5.f4-ns
-    | Besides that, I also love playing & writing music, shooting photos and travelling.
+  - for var index in I18n.about_text
+    p.lh-copy.gray.mt4.f5.f4-ns = I18n.about_text[index]
 
 
   h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4

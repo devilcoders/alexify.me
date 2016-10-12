@@ -36,7 +36,6 @@ let config = {
   entry: {
     'app': [
       PATHS.styles + 'styles.css',
-      PATHS.entries + 'app.js',
       './src/slim/index.slim'
     ]
   },

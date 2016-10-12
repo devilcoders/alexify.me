@@ -5,20 +5,20 @@ header.tc.mt4
             )
 
   hgroup
-    h1.f1.fw4.black-70.abel.mb3.mt2.tracked-tight Alexey Topolyanskiy
-    h2.f5.black-50.fw4.ttu.tracked-mega.abel Web Designer & Developer
+    h1.f1.fw4.black-70.abel.mb3.mt2.tracked-tight = I18n.title
+    h2.f5.black-50.fw4.ttu.tracked-mega.abel = I18n.subtitle
 
   hr.w-10.mt4.bt-0.bb.b--solid.b--light-gray
 
   nav.mt4
-    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#about") about me
+    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#about") = I18n.about
     span.black-30
       | /
-    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#portfolio") potfolio
+    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#portfolio") = I18n.portfolio
     span.black-30
      | /
-    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#resume") resume
+    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#resume") = I18n.resume
     span.black-30
       | /
-    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#contact") contact
+    a.link.dib.mh3.mv2.mv0-ns.f4.tracked.blue(href="#contact") = I18n.contact
 
