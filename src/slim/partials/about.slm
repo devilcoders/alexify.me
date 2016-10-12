@@ -1,5 +1,5 @@
 article#about.mt6
-  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4 = I18n.about
+  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4.ttc = I18n.about
 
   - for var index in I18n.about_text
     p.lh-copy.gray.mt4.f5.f4-ns = I18n.about_text[index]
