@@ -3,7 +3,7 @@ article#contact.mt6
     | Contact Me
 
   p.lh-copy.gray
-    | You can also follow me on <a href="https://twitter.com/devilcoders" class="link dib blue fw6">Twitter</a> or check my profile on <a href="https://www.linkedin.com/in/devilcoders" class="link dib blue fw6">LikenIn</a>
+    | You can also follow me on <a href="https://twitter.com/devilcoders" target="_blank" class="link dib blue fw6">Twitter</a> or check my profile on <a href="https://www.linkedin.com/in/devilcoders" target="_blank" class="link dib blue fw6">LikenIn</a>
 
   form method="post" action="https://formspree.io/devilcoders@gmail.com"
     input.w-100.pa3.input-reset.ba.b--silver.mb3[
