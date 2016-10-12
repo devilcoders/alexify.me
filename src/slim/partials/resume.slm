@@ -147,17 +147,17 @@ article#resume.mt6.dark-gray
     li.ba.b--gold.mb3
       .pa3.w-80.bg-gold.abel.fw6.dark-gray.f4 Javascript
 
+    li.ba.b--red.mb3
+      .pa3.w-80.bg-red.abel.fw6.white.f4 Ruby
+
+    li.ba.b--dark-red.mb3
+      .pa3.w-80.bg-dark-red.abel.fw6.white.f4 Rails
+
     li.ba.b--navy.mb3
       .pa3.w-80.bg-navy.abel.fw6.white.f4 Photoshop
 
     li.ba.b--light-yellow.mb3
       .pa3.w-80.bg-light-yellow.abel.fw6.dark-gray.f4 Sketch
-
-    li.ba.b--red.mb3
-      .pa3.w-75.bg-red.abel.fw6.white.f4 Ruby
-
-    li.ba.b--dark-red.mb3
-      .pa3.w-75.bg-dark-red.abel.fw6.white.f4 Rails
 
     li.ba.b--light-blue.mb3
       .pa3.w-75.bg-light-blue.abel.fw6.dark-blue.f4 Linux
