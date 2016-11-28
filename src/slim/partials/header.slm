@@ -1,8 +1,9 @@
 header.tc.mt4
-  img.br-100(src="../images/avatar.jpg"
-             alt="Alexey Topolyanskiy"
-             width="100"
-            )
+  img.br-100(
+    src="../images/avatar.jpg"
+    alt="Alexey Topolyanskiy"
+    width="100"
+  )
 
   hgroup
     h1.f1.fw4.black-70.abel.mb3.mt2.tracked-tight = I18n.title
