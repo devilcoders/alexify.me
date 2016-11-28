@@ -9,42 +9,47 @@ article#about.mt6
     | I used to work with
 
   ul.list.pl0.flex.items-center.flex-wrap
-    li.center.ph3.mv3.w-50.w-third-ns.o-50.tc
+    li.center.ph3.mv3.w-50.w-third-ns.tc
       a[
         href="https://www.firstdata.com/en_us/home.html"
         target="_blank"
+        rel="noopener"
         aria-label="First Data"
         ]
-        img.f-gs.hover-f-gs-0(src="../images/fdc.png", alt="First Data")
+        img.f-gs.hover-f-gs-0(src="../images/fdc.png" alt="First Data")
 
-    li.center.ph3.mv3.w-50.w-third-ns.o-50.tc
+    li.center.ph3.mv3.w-50.w-third-ns.tc
       a[
         href="http://webi.com.ua/"
         target="_blank"
+        rel="noopener"
         aria-label="WebiCom"
         ]
-        img.f-gs.hover-f-gs-0(src="../images/webicom.png", alt="Webi Com")
+        img.f-gs.hover-f-gs-0(src="../images/webicom.png" alt="Webi Com")
 
-    li.center.ph3.mv3.w-50.w-third-ns.o-50.tc
+    li.center.ph3.mv3.w-50.w-third-ns.tc
       a[
         href="https://vertalab.com/projects/zeodia"
         target="_blank"
+        rel="noopener"
         aria-label="Vertalab"
         ]
-        img.f-gs.hover-f-gs-0(src="../images/zeodia.png", alt="Zeodia")
+        img.f-gs.hover-f-gs-0(src="../images/zeodia.png" alt="Zeodia")
 
-    li.center.ph3.mv3.w-50.w-third-ns.o-50.tc
+    li.center.ph3.mv3.w-50.w-third-ns.tc
       a[
         href="https://spreecommerce.com/"
         target="_blank"
+        rel="noopener"
         aria-label="Spree Commerce Inc"
         ]
-        img.f-gs.hover-f-gs-0(src="../images/spree.svg", alt="Spree Commerce Inc")
+        img.f-gs.hover-f-gs-0(src="../images/spree.svg" alt="Spree Commerce Inc")
 
-    li.center.ph3.mv3.w-50.w-third-ns.o-50.tc
+    li.center.ph3.mv3.w-50.w-third-ns.tc
       a[
         href="http://lifeensured.com"
         target="_blank"
+        rel="noopener"
         aria-label="Life Ensured"
         ]
-        img.f-gs.hover-f-gs-0(src="../images/lifeensured.jpg", alt="Life Ensured")
+        img.f-gs.hover-f-gs-0(src="../images/lifeensured.jpg" alt="Life Ensured")

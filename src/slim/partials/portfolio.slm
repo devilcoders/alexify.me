@@ -8,16 +8,40 @@ article#portfolio.mt6
 
   ul.list.pl0.f3.fw6.lh-title.bt.b--light-gray.pt3
     li.dib.mr4
-      a.link.black(href="https://github.com/devilcoders", target="_blank") Github
+      a.link.black(
+        href="https://github.com/devilcoders"
+        target="_blank"
+        rel="noopener"
+      ) Github
     li.dib.mr4
-      a.link.pink(href="https://dribbble.com/devilcoders", target="_blank") Dribbble
+      a.link.pink(
+        href="https://dribbble.com/devilcoders"
+        target="_blank"
+        rel="noopener"
+      ) Dribbble
     li.dib.mr4
-      a.link.blue(href="https://www.behance.net/devilcoders", target="_blank") Behanced
+      a.link.blue(
+        href="https://www.behance.net/devilcoders",
+        target="_blank"
+        rel="noopener"
+      ) Behanced
     li.dib.mr4
-      a.link.dark-gray(href="https://unsplash.com/@devilcoders", target="_blank") Unsplash
+      a.link.dark-gray(
+        href="https://unsplash.com/@devilcoders",
+        target="_blank"
+        rel="noopener"
+      ) Unsplash
     li.dib.mr4
-      a.link.green(href="https://audiojungle.net/user/x-intent/portfolio", target="_blank")
+      a.link.green(
+        href="https://audiojungle.net/user/x-intent/portfolio",
+        target="_blank"
+        rel="noopener"
+      )
         | Audiojungle
     li.dib.mr4
-      a.link.orange(href="https://soundcloud.com/user8060851/sets/kadath", target="_blank")
+      a.link.orange(
+        href="https://soundcloud.com/user8060851/sets/kadath",
+        target="_blank"
+        rel="noopener"
+      )
         | Soundcloud

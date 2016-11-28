@@ -26,9 +26,9 @@ const postPluginsProd = [
   vars, conditionals, media, queries
 ];
 
-const postPluginsDev = postPluginsProd.concat([
-  immutableCss, reporter
-]);
+const postPluginsDev = [
+  ...postPluginsProd, immutableCss, reporter
+];
 
 let postPlugins = production ? postPluginsProd : postPluginsDev;
 
@@ -51,7 +51,9 @@ let config = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel',
-        query: {presets: ['es2015']}
+        query: {
+          presets: ['es2015']
+        }
       },
       {
         test: /\.(slm|slim)$/,
@@ -64,10 +66,7 @@ let config = {
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-            'file?hash=sha512&digest=hex&name=./images/[hash].[ext]',
-            'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
-        ]
+        loader: 'url?limit=10000!img?progressive=true'
       }
     ]
   },
@@ -82,8 +81,8 @@ let config = {
     return [
       postcssImport({
           addDependencyTo: webpack
-      })
-    ].concat(postPlugins)
+      }), ...postPlugins
+    ]
   }
 };
 

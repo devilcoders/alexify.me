@@ -6,118 +6,118 @@ article#resume.mt6.dark-gray
 
   ul.list.pl0
     li.cf.mb4.mt4
-      .fl.w-25
-        time.fw6.f5 2015 - Now
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2015 - Now
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 First Data
+          h3.mt0.mb2.f4 First Data
           h4.fw4.mt0 Seniour Application Analyst
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2011 - 2016
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2011 - 2016
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Muzarena
+          h3.mt0.mb2.f4 Muzarena
           h4.fw4.mt0 CTO, co-founder, co-owner
 
           p.lh-copy.gray
             | All backend and front-end development, DevOps, website design.
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2011 - 2015
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2011 - 2015
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Spree Commerce Inc
+          h3.mt0.mb2.f4 Spree Commerce Inc
           h4.fw4.mt0 Senior Designer & Front End Developer
 
           p.lh-copy.gray
             | As the web designer at Spree, I work on all design aspects of our product. I work on spreecommerce.com website (not the current one), Spree Works SAAS project, conference websites and everything that is related to design in this company. Not only I design stuff but also code it working with HTML, CSS, Javascript, and Ruby On Rails.
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2010 - 2011
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2010 - 2011
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Life Ensured
+          h3.mt0.mb2.f4 Life Ensured
           h4.fw4.mt0 Web Designer & Front End Developer
 
           p.lh-copy.gray
             | At LifeEnsured I designed and put in code few websites including lifeensured.com, alive.io and deceasedaccount.com. I worked with Perl developers and use Perl::TT in my work.
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2009 - 2011
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2009 - 2011
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Zeodia
+          h3.mt0.mb2.f4 Zeodia
           h4.fw4.mt0 Web Designer & Front End Developer
 
           p.lh-copy.gray
             | I work as web designer drawing and coding website design from day one. I also help with some Linux configuration and video editing engine stuff.
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2009 - 2011
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2009 - 2011
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Vertaline
+          h3.mt0.mb2.f4 Vertaline
           h4.fw4.mt0 Web Designer & Front End Developer
 
           p.lh-copy.gray
             | Social networks, e-commerce systems, and private websites design.
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2008 - 2009
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2008 - 2009
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Webicom
+          h3.mt0.mb2.f4 Webicom
           h4.fw4.mt0 Web Developer
 
           p.lh-copy.gray
             | HTML/CSS/Javascript/PHP coding, CMS development, Project planning, web design
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2007 - 2008
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2007 - 2008
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Uihh Inc
+          h3.mt0.mb2.f4 Uihh Inc
           h4.fw4.mt0 Web Designer & Front End Developer
 
           p.lh-copy.gray
             | It was interesting project related to people search & match. I worked as web designer drawing and coding website designs.
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2006
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2006
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Eney
+          h3.mt0.mb2.f4 Eney
           h4.fw4.mt0 Technical Designer
 
           p.lh-copy.gray
             | Technical design, pre-printing processing, engraving, etc.
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2005 - 2006
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2005 - 2006
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 AS Print
+          h3.mt0.mb2.f4 AS Print
           h4.fw4.mt0 Technical Designer, Visual Designer, Printing
 
           p.lh-copy.gray
             | Technical design, pre-printing processing, engraving, packaging design, ads design, etc.
 
     li.cf.mb4
-      .fl.w-25
-        time.fw6.f5 2005
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2005
+      .fl-ns.w-75-ns
         hgroup
-          h3.mt0.mb2 Lakor
+          h3.mt0.mb2.f4 Lakor
           h4.fw4.mt0 Technical Designer, Visual Designer, Printing
 
           p.lh-copy.gray
@@ -128,9 +128,9 @@ article#resume.mt6.dark-gray
 
   ul.list.pl0
     li.cf.mt4
-      .fl.w-25
-        time.fw6.f5 2001 - 2005
-      .fl.w-75
+      .fl-ns.w-25-ns.mb3.mb0-ns
+        time.fw6.f4 2001 - 2005
+      .fl-ns.w-75-ns
         hgroup
           h3.mt0.mb2.lh-title Institute Of Informational Technologies & Employee Management
           h4.fw4.mt0 Bachelor - Computer Systems in Management
