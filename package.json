@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "I18n=en webpack-dev-server --port 3000 --host 0.0.0.0 --inline --watch",
+    "start": "I18n=en webpack-dev-server --port 3001 --host 0.0.0.0 --inline --watch",
     "build": "rm -rf dist && I18n=en NODE_ENV=production ./node_modules/.bin/webpack"
   },
   "keywords": [],
