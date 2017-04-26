@@ -1,8 +1,8 @@
 article#resume.mt6.dark-gray
-  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4
+  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4.mb0
     | Resume
 
-  h2.lh-title Work History
+  h2.lh-title.fw4.black-70.bb.b--light-gray.pv4.mt0 Work History
 
   ul.list.pl0
     li.cf.mb4.mt4
@@ -124,7 +124,7 @@ article#resume.mt6.dark-gray
             | Technical design, pre-printing processing, engraving, packaging design, ads design, etc.
 
 
-  h2.lh-title Education
+  h2.lh-title.fw4.black-70.bb.bt.b--light-gray.pv4 Education
 
   ul.list.pl0
     li.cf.mt4
@@ -135,29 +135,20 @@ article#resume.mt6.dark-gray
           h3.mt0.mb2.lh-title Institute Of Informational Technologies & Employee Management
           h4.fw4.mt0 Bachelor - Computer Systems in Management
 
-  h2.lh-title Skills
+  h2.lh-title.fw4.black-70.bb.bt.b--light-gray.pv4 Skills
 
   ul.list.pl0
-    li.ba.b--yellow.mb3
-      .pa3.w-90.bg-yellow.abel.fw6.dark-gray.f4 CSS
-
-    li.ba.b--blue.mb3
-      .pa3.w-90.bg-blue.abel.fw6.white.f4 HTML
-
-    li.ba.b--gold.mb3
-      .pa3.w-80.bg-gold.abel.fw6.dark-gray.f4 Javascript
-
-    li.ba.b--red.mb3
-      .pa3.w-80.bg-red.abel.fw6.white.f4 Ruby
-
-    li.ba.b--dark-red.mb3
-      .pa3.w-80.bg-dark-red.abel.fw6.white.f4 Rails
-
     li.ba.b--navy.mb3
-      .pa3.w-80.bg-navy.abel.fw6.white.f4 Photoshop
-
+      .pa3.w-100.bg-navy.fw6.white.f4 Photoshop (UI/UX)
     li.ba.b--light-yellow.mb3
-      .pa3.w-80.bg-light-yellow.abel.fw6.dark-gray.f4 Sketch
-
+      .pa3.w-100.bg-light-yellow.fw6.dark-gray.f4 Sketch (UI/UX)
+    li.ba.b--yellow.mb3
+      .pa3.w-100.bg-yellow.fw6.dark-gray.f4 CSS
+    li.ba.b--blue.mb3
+      .pa3.w-100.bg-blue.fw6.white.f4 HTML
+    li.ba.b--gold.mb3
+      .pa3.w-90.bg-gold.fw6.dark-gray.f4 Javascript (React.js)
+    li.ba.b--red.mb3
+      .pa3.w-80.bg-red.fw6.white.f4 Ruby (Ruby on Rails)
     li.ba.b--light-blue.mb3
-      .pa3.w-75.bg-light-blue.abel.fw6.dark-blue.f4 Linux
+      .pa3.w-75.bg-light-blue.fw6.dark-blue.f4 Linux

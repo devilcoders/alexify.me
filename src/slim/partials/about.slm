@@ -5,11 +5,11 @@ article#about.mt6
     p.lh-copy.gray.mt4.f5.f4-ns = I18n.about_text[index]
 
 
-  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4
+  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4.mt6
     | I used to work with
 
   ul.list.pl0.flex.items-center.flex-wrap
-    li.center.ph3.mv3.w-50.w-third-ns.tc
+    li.center.ph3.mv3.w-50.w-third-ns.tl
       a[
         href="https://www.firstdata.com/en_us/home.html"
         target="_blank"
@@ -18,7 +18,7 @@ article#about.mt6
         ]
         img.f-gs.hover-f-gs-0(src="../images/fdc.png" alt="First Data")
 
-    li.center.ph3.mv3.w-50.w-third-ns.tc
+    li.center.ph3.mv3.w-50.w-third-ns.tr
       a[
         href="http://webi.com.ua/"
         target="_blank"

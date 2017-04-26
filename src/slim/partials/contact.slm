@@ -1,25 +1,25 @@
 article#contact.mt6
-  h1.abel.lh-title.fw4.black-70.bb.b--light-gray.pb4
+  h1.lh-title.fw4.black-70.bb.abel.b--light-gray.pv4
     | Contact Me
 
   p.lh-copy.gray
     | You can also follow me on <a href="https://twitter.com/devilcoders" rel="noopener" target="_blank" class="link dib blue fw6">Twitter</a> or check my profile on <a href="https://www.linkedin.com/in/devilcoders" rel="noopener" target="_blank" class="link dib blue fw6">LikenIn</a>
 
   form method="post" action="https://formspree.io/devilcoders@gmail.com"
-    input.w-100.pa3.input-reset.ba.b--silver.mb3[
+    input.space-mono.f6.w-100.pa3.input-reset.ba.b--silver.mb3[
       type="email"
       name="email"
       placeholder="Your email"
       aria-label="Your email"
     ]
 
-    textarea.w-100.pa3.ba.b--silver.mb3[
+    textarea.space-mono.f6.w-100.pa3.ba.b--silver.mb3[
       name="message"
       placeholder="Your message"
       rows="10"
       aria-label="Your message"
     ]
 
-    button.white.hover-dark-blue.bg-blue.fw6.ba.b--blue.pv3.ph4.pointer.hover-bg-light-blue.bg-animate[
+    button.white.f5.hover-dark-blue.bg-blue.fw6.ba.b--blue.pv3.ph4.pointer.hover-bg-light-blue.bg-animate[
       type="submit"
     ] Send
