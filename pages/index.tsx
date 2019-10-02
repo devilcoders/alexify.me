@@ -1,10 +1,17 @@
 // --- Dependencies
 import * as React from 'react'
+import { Text } from '@chakra-ui/core'
+
+// --- Components
+import Layout from '../components/layouts/MainLayout'
+import AboutMe from '../components/elements/AboutMe'
 
 /**
  * Component
  */
 
-const HomePage = () => <div><h1>Home Page</h1></div>
+const HomePage = () => <Layout title="Welcome">
+  <AboutMe />
+</Layout>
 
-export default HomePage
+export default HomePage;
