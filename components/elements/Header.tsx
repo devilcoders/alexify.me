@@ -1,47 +1,31 @@
 // --- Dependencies
-import * as React from 'react'
-import { Box, Flex, Image } from '@chakra-ui/core'
+import Link from 'next/link'
+import Image from 'next/image'
 
 // --- Components
-import NavLink from './NavLink'
+import Nav from './Nav'
 
 /**
  * Component
  */
 
 const Header = () => (
-  <Box as="header" p={3}>
-    <Flex alignItems="center" justifyContent="space-between" width="100%">
-      <Image
-        src="/images/avatar.jpg"
-        width={16}
-        height={16}
-        borderRadius={100}
-      />
-      <Box
-        as="nav"
-        fontFamily="mono"
-        p={3}
-        fontWeight={500}
-        fontSize={18}
-        textTransform="uppercase"
-        color="gray.7"
-      >
-        <NavLink href="/" number={1}>
-          About
-        </NavLink>
-        <NavLink href="/" number={2}>
-          Resume
-        </NavLink>
-        <NavLink href="/" number={3}>
-          Works
-        </NavLink>
-        <NavLink href="/" number={4}>
-          Contact
-        </NavLink>
-      </Box>
-    </Flex>
-  </Box>
+  <header className="w-full p-10 max-w-7xl mx-auto sticky top-0 z-50">
+    <div className="items-center flex justify-between">
+      <Link href="/">
+        <a>
+          <Image
+            width="96"
+            height="96"
+            className="rounded-full w-24 h-24"
+            src="/images/avatar.jpg"
+          />
+        </a>
+      </Link>
+
+      <Nav />
+    </div>
+  </header>
 )
 
 export default Header

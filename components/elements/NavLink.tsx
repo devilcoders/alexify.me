@@ -1,36 +1,30 @@
 // --- Dependencies
-import * as React from 'react'
-import { Link, Box } from '@chakra-ui/core'
+import Link from 'next/link'
 
 /**
  * Types
  */
 
 interface IProps {
+  id?: number
   href: string
   children: React.ReactNode
-  number: number
+  isActive: boolean
 }
 
 /**
  * Component
  */
 
-const NavLink: React.FC<IProps> = ({ href, children, number }) => (
-  <Link href={href} _hover={{ color: 'indigo.9' }} ml={6} fontWeight={400}>
-    <Box
-      as="span"
-      fontFamily="body"
-      style={{ fontFeatureSettings: "'frac' 1" }}
-      display="inline-block"
-      mr={2}
-      fontSize={14}
-      color="gray.5"
+const NavLink: React.FC<IProps> = ({ id, href, children, isActive }) => (
+  <Link href={href}>
+    <a
+      id={String(id)}
+      className="relative z-10 font-medium flex items-end text-lg text-gray-6 transition-colors duration-300 ease-in-out hover:text-gray-0"
     >
-      0.{number}
-    </Box>
-    {children}
+      {children}
+    </a>
   </Link>
 )
 
-export default React.memo(NavLink)
+export default NavLink

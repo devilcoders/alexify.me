@@ -18,7 +18,7 @@
       "base/*": ["components/base/*"],
       "elements/*": ["components/elements/*"],
       "layouts/*": ["components/layouts/*"],
-      "lib/*": ["lib/*"],
+      "lib/*": ["hooks/*"],
       "types": ["types/*"]
     }
   },

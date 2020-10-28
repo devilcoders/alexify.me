@@ -1,10 +1,10 @@
-// --- Dependencies
-import * as React from 'react'
+// --- Components
+import Layout from '../components/layouts/MainLayout'
 
 /**
  * Component
  */
 
-const CVPage = () => <div><h1>CV</h1></div>
+const ResumePage = () => <Layout title="Resume">CV</Layout>
 
-export default CVPage
+export default ResumePage

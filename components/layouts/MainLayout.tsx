@@ -1,27 +1,15 @@
 // --- Dependencies
-import * as React from 'react'
 import Head from 'next/head'
-import {
-  ThemeProvider,
-  CSSReset,
-  ColorModeProvider,
-  Box
-} from '@chakra-ui/core'
-
-// --- Styles
-import theme from '../../lib/theme'
 
 // --- Components
 import Header from '../elements/Header'
-
-// --- Styles
-import '../../public/fonts/fonts.css'
+import Sidebar from '../elements/Sidebar'
 
 /**
  * Types
  */
 
-interface IProps {
+type Props = {
   title: string
   children: React.ReactNode
 }
@@ -30,21 +18,19 @@ interface IProps {
  * Component
  */
 
-const MainLayout: React.FC<IProps> = ({ title, children }) => (
-  <ThemeProvider theme={theme}>
-    <ColorModeProvider>
-      <CSSReset />
-      <Head>
-        <title>{title} :: Alexey Topolyanskiy</title>
-      </Head>
-      <Box as="main" fontFamily="body" bg="black.300">
-        <Header />
-        <Box maxWidth="60rem" mx="auto" px={3}>
-          {children}
-        </Box>
-      </Box>
-    </ColorModeProvider>
-  </ThemeProvider>
+const MainLayout: React.FC<Props> = ({ title, children }) => (
+  <>
+    <Head>
+      <title>{title} :: Alexey Topolyanskiy</title>
+    </Head>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <div className="flex px-10 flex-1">
+        <Sidebar />
+        <main className="text-gray-7 ml-10">{children}</main>
+      </div>
+    </div>
+  </>
 )
 
-export default React.memo(MainLayout)
+export default MainLayout
