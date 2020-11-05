@@ -9,14 +9,13 @@ interface IProps {
   id?: number
   href: string
   children: React.ReactNode
-  isActive: boolean
 }
 
 /**
  * Component
  */
 
-const NavLink: React.FC<IProps> = ({ id, href, children, isActive }) => (
+const NavLink: React.FC<IProps> = ({ id, href, children }) => (
   <Link href={href}>
     <a
       id={String(id)}

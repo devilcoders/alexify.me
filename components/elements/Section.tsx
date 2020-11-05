@@ -11,7 +11,7 @@ type Props = {
  */
 
 const Section: React.FC<Props> = ({ title, children }) => (
-  <section className="py-16">
+  <section className="pb-16">
     <h1 className="mb-12 relative z-1 text-5xl uppercase font-bold text-gray-5">
       {title}
     </h1>
