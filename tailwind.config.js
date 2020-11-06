@@ -19,7 +19,14 @@ module.exports = {
   },
   variants: {
     animation: ['responsive', 'hover', 'group-hover'],
-    backgroundColor: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+    backgroundColor: [
+      'responsive',
+      'hover',
+      'focus',
+      'active',
+      'group-hover',
+      'dark',
+    ],
     zIndex: ['responsive', 'hover', 'group-hover'],
   },
   plugins: [],

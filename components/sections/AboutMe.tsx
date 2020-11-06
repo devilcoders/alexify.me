@@ -5,7 +5,7 @@ import Section from 'elements/Section'
  * Component
  */
 
-const AboutMe = () => (
+export const AboutMe = () => (
   <Section title="About Me">
     <p>
       Writing clean valid code and designing web applications is my passion.
@@ -29,5 +29,3 @@ const AboutMe = () => (
     </p>
   </Section>
 )
-
-export default AboutMe

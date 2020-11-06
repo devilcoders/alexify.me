@@ -11,14 +11,12 @@ type Props = {
  */
 
 const Section: React.FC<Props> = ({ title, children }) => (
-  <section className="pb-16">
-    <h1 className="mb-12 relative z-1 text-5xl uppercase font-bold text-gray-5">
+  <section className="flex space-x-8">
+    <h1 className="relative z-1 uppercase font-bold dark:text-white w-40">
       {title}
     </h1>
 
-    <div className="text-gray-3 text-lg relative z-10 max-w-md space-y-6">
-      {children}
-    </div>
+    <div className="relative z-10 max-w-3xl space-y-6">{children}</div>
   </section>
 )
 

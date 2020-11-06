@@ -1,19 +1,17 @@
 // --- Components
 import Section from 'elements/Section'
+import { TimelineCard } from 'elements/TimelineCard'
 
 /**
  * Component
  */
 
-const Education = () => (
+export const Education = () => (
   <Section title="Education">
-    <p>
-      Writing clean valid code and designing web applications is my passion.
-      It's part of my everyday life, and I'm really enjoying it. I started
-      programming in school and since then fall in love with software
-      development.
-    </p>
+    <TimelineCard
+      date="2001 - 2015"
+      title="Bachelor of Economics (Management in IT)"
+      description="Started in CS but finished at economics. Programming, Computer engineering, Economics, IT management."
+    />
   </Section>
 )
-
-export default Education

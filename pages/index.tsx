@@ -1,7 +1,6 @@
 // --- Components
-import Education from 'components/sections/Education'
+import { Education, AboutMe, Employment } from 'components/sections'
 import Layout from 'components/layouts/MainLayout'
-import AboutMe from 'components/sections/AboutMe'
 
 /**
  * Component
@@ -9,8 +8,11 @@ import AboutMe from 'components/sections/AboutMe'
 
 const HomePage = () => (
   <Layout title="Welcome">
-    <AboutMe />
-    <Education />
+    <div className="space-y-32">
+      <AboutMe />
+      <Education />
+      <Employment />
+    </div>
   </Layout>
 )
 

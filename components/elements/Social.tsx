@@ -47,14 +47,12 @@ const PROFILES = [
  * Component
  */
 
-const Sidebar = () => (
-  <aside className="relative w-24">
-    <nav className="sticky top-44 text-center flex flex-col items-center space-y-3">
+export const Social = () => (
+  <div className="relative">
+    <nav className="sticky top-44 text-center flex items-center space-x-3">
       {PROFILES.map((profile) => (
-        <SocialLink {...profile} />
+        <SocialLink key={profile.id} {...profile} />
       ))}
     </nav>
-  </aside>
+  </div>
 )
-
-export default Sidebar

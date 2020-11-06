@@ -25,7 +25,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
   return (
     <AnimatePresence exitBeforeEnter onExitComplete={handleExitComplete}>
-      <div className="antialiased font-sans bg-gray-9 min-h-screen text-gray-0">
+      <div className="antialiased font-sans bg-white dark:bg-gray-9 min-h-screen text-gray-7 dark:text-gray-0">
         <Component {...pageProps} key={router.route} />
       </div>
     </AnimatePresence>
