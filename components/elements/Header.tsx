@@ -11,7 +11,7 @@ import { Social } from '../elements/Social'
  */
 
 const Header = () => (
-  <header className="w-full p-10 max-w-7xl mx-auto sticky top-0 z-50 bg-white">
+  <header className="w-full px-10 pt-10 pb-24 max-w-7xl sticky top-0 z-50  dark:from-gray-9 dark:via-gray-9 bg-gradient-to-b from-white via-white to-transparent">
     <div className="items-center flex justify-between">
       <Link href="/">
         <a className="flex items-center space-x-6 text-gray-7 dark:text-gray-6 dark:hover:text-white transition-colors duration-300 ease-in-out">
