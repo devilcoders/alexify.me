@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 // --- Components
 
-import { Social } from '../elements/Social'
+import { Social } from 'components/elements'
 
 /**
  * Component
@@ -22,7 +22,7 @@ const Header = () => (
             src="/images/avatar.jpg"
           />
           <div>
-            <h1 className="text-3xl font-light">Alexey Topolyanskiy</h1>
+            <h1 className="text-3xl font-black">Alexey Topolyanskiy</h1>
             <h2 className="text-lg">Web Designer & Developer</h2>
           </div>
         </a>

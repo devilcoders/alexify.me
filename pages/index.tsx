@@ -8,7 +8,7 @@ import Layout from 'components/layouts/MainLayout'
 
 const HomePage = () => (
   <Layout title="Welcome">
-    <div className="space-y-32">
+    <div className="divide-y divide-gray-1">
       <AboutMe />
       <Education />
       <Employment />

@@ -8,7 +8,7 @@ import {
 } from '@icons-pack/react-simple-icons'
 
 // --- Components
-import SocialLink from './SocialLink'
+import { SocialLink } from 'components/elements'
 
 const PROFILES = [
   {
