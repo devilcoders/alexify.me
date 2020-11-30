@@ -13,9 +13,9 @@ export const EMPLOYMENT = [
     description:
       'I’m working on eventWorld.com ticket platform. I am responsible for frontend and design of the project after we pick it up from another software house.',
     stack: {
-      backend: ['Scala', 'Lagom'],
-      frontend: ['TypeScript', 'React', 'TailwindCSS'],
-      design: ['Figma', 'Zeplin']
+      backend: ['scala'],
+      frontend: ['typescript', 'react', 'tailwindcss'],
+      design: ['figma']
     }
   },
   {
@@ -28,8 +28,8 @@ export const EMPLOYMENT = [
     description:
       'Open-Source work on Spree - Ruby on Rails e-commerce engine. Frontend work on multiple international e-commerce websites.',
     stack: {
-      backend: ['Ruby', 'Rails', 'Spree', 'Solidus'],
-      frontend: ['TypeScript', 'React', 'SASS', 'Tachyons']
+      backend: ['ruby', 'rails'],
+      frontend: ['typescript', 'react', 'sass']
     }
   },
   {
@@ -42,17 +42,10 @@ export const EMPLOYMENT = [
     description:
       "Side-project we're doing with a friend. My field of work is related to frontend and devops work. As part of the project, I'm also working on collaborative WYSIWYG editor.",
     stack: {
-      backend: ['Elixir', 'Phoenix'],
-      devops: ['Docker', 'CapRover', 'GitLab'],
-      frontend: [
-        'TypeScript',
-        'Phoenix LiveView',
-        'TailwindCSS',
-        'Alpine.js',
-        'Prosemirror',
-        'YJS'
-      ],
-      design: ['Figma']
+      backend: ['elixir'],
+      devops: ['docker', 'gitlab'],
+      frontend: ['typescript', 'tailwindcss', 'javascript', 'react', 'nextjs'],
+      design: ['figma']
     }
   },
   {
@@ -65,9 +58,9 @@ export const EMPLOYMENT = [
     description:
       'Few in-house products built using Next.js. Big in-house project on Rails, similar to Shopify.',
     stack: {
-      backend: ['Ruby', 'Rails', 'Serverless.js'],
-      frontend: ['JavaScript', 'React', 'Next.js'],
-      design: ['Sketch']
+      backend: ['ruby', 'rails', 'serverless'],
+      frontend: ['javascript', 'react', 'nextjs', 'html', 'css'],
+      design: ['sketch']
     }
   },
   {
@@ -80,9 +73,9 @@ export const EMPLOYMENT = [
     description:
       'Own music instruments & equipment online store. Did all the work related to Backend / Frontend / Design / DevOps.',
     stack: {
-      backend: ['Ruby', 'Rails', 'SpreeCommerce', 'ElasticSearch'],
-      frontend: ['JavaScript', 'SASS'],
-      design: ['Photoshop', 'Sketch']
+      backend: ['ruby', 'rails', 'elasticsearch'],
+      frontend: ['javascript', 'sass'],
+      design: ['photoshop', 'sketch']
     }
   },
   {
@@ -96,9 +89,9 @@ export const EMPLOYMENT = [
     description:
       'Did most of Design and Frontend related work inside the company. Besides web development used to work on our conference merch, banners, print materials, etc.',
     stack: {
-      backend: ['Ruby', 'Rails', 'SpreeCommerce'],
-      frontend: ['JavaScript', 'SASS', 'CoffeeScript'],
-      design: ['Photoshop', 'Sketch']
+      backend: ['ruby', 'rails'],
+      frontend: ['javascript', 'sass', 'coffeescript'],
+      design: ['photoshop', 'sketch']
     }
   },
   {
@@ -111,9 +104,9 @@ export const EMPLOYMENT = [
     description:
       'Designed and implemented frontend for a few websites. Get my hands dirty with Perl::TT based templates.',
     stack: {
-      backend: ['Perl'],
-      frontend: ['JavaScript', 'HTML', 'CSS'],
-      design: ['Photoshop']
+      backend: ['perl'],
+      frontend: ['javascript', 'html', 'css'],
+      design: ['photoshop']
     }
   },
   {
@@ -126,9 +119,9 @@ export const EMPLOYMENT = [
     description:
       'I work as web designer drawing and coding website design from day one. I also help with some Linux configuration and video editing engine stuff.',
     stack: {
-      backend: ['Ruby', 'Rails'],
-      frontend: ['JavaScript', 'HTML', 'CSS'],
-      design: ['Photoshop']
+      backend: ['ruby', 'rails'],
+      frontend: ['javascript', 'html', 'css'],
+      design: ['photoshop']
     }
   },
   {
@@ -141,9 +134,9 @@ export const EMPLOYMENT = [
     description:
       'Social networks, e-commerce systems, and private websites design.',
     stack: {
-      backend: ['Ruby', 'Rails'],
-      frontend: ['JavaScript', 'HTML', 'CSS'],
-      design: ['Photoshop']
+      backend: ['ruby', 'rails'],
+      frontend: ['javascript', 'html', 'css'],
+      design: ['photoshop']
     }
   },
   {
@@ -156,8 +149,8 @@ export const EMPLOYMENT = [
     description:
       'CMS coding, Drupal / Wordpress. Implementing designs for client websites.',
     stack: {
-      backend: ['PHP', 'Drupal', 'Wordpress'],
-      frontend: ['JavaScript', 'HTML', 'CSS']
+      backend: ['php', 'drupal', 'wordpress'],
+      frontend: ['javascript', 'html', 'css']
     }
   },
   {
@@ -170,9 +163,9 @@ export const EMPLOYMENT = [
     description:
       'Started as designer only and eventually moved to implement own designs in HTML|CSS|JS. First frontend-related work, where I actually started implementing my own design work.',
     stack: {
-      backend: ['Ruby', 'Rails'],
-      frontend: ['JavaScript', 'HTML', 'CSS'],
-      design: ['Photoshop']
+      backend: ['ruby', 'rails'],
+      frontend: ['javascript', 'html', 'css'],
+      design: ['photoshop']
     }
   },
   {
@@ -185,7 +178,7 @@ export const EMPLOYMENT = [
     description:
       'Preparing mockups and files for printing on different surfaces, like t-shirts, banners, paper, engraving, etc.',
     stack: {
-      design: ['CorelDraw', 'Illustrator']
+      design: ['coreldraw', 'illustrator']
     }
   },
   {
@@ -198,7 +191,7 @@ export const EMPLOYMENT = [
     description:
       'Advertisement materials design, packaging design. Preparing files for printing.',
     stack: {
-      design: ['CorelDraw', 'Illustrator', 'Photoshop']
+      design: ['coreldraw', 'illustrator', 'photoshop']
     }
   },
   {
@@ -211,7 +204,7 @@ export const EMPLOYMENT = [
     description:
       'First job after graduation. Preparing mockups for printing. Helping on the print line.',
     stack: {
-      design: ['CorelDraw']
+      design: ['coreldraw']
     }
   }
 ]
