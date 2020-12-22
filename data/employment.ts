@@ -5,7 +5,7 @@
 export const EMPLOYMENT = [
   {
     id: 'codeLab',
-    date: 'Feb 2020 - Present',
+    date: 'Feb 2020 - Jan 2020',
     position: 'Senior Frontend Developer & Designer',
     company: '360 Code Lab',
     location: 'Warsaw',
@@ -52,7 +52,7 @@ export const EMPLOYMENT = [
     id: 'firstData',
     date: 'Jul 2015 - Jan 2018',
     position: 'Senior Application Analyst',
-    company: 'Handshake.work',
+    company: 'First Data Inc.',
     location: 'Warsaw',
     employment: 'Side-Project',
     description:
