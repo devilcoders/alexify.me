@@ -17,6 +17,7 @@
     "paths": {
       "base/*": ["components/base/*"],
       "elements/*": ["components/elements/*"],
+      "elements": ["components/elements"],
       "layouts/*": ["components/layouts/*"],
       "lib/*": ["hooks/*"],
       "types": ["types/*"]

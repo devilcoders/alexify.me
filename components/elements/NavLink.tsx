@@ -15,7 +15,7 @@ interface IProps {
  * Component
  */
 
-const NavLink: React.FC<IProps> = ({ id, href, children }) => (
+export const NavLink: React.FC<IProps> = ({ id, href, children }) => (
   <Link href={href}>
     <a
       id={String(id)}
@@ -25,5 +25,3 @@ const NavLink: React.FC<IProps> = ({ id, href, children }) => (
     </a>
   </Link>
 )
-
-export default NavLink

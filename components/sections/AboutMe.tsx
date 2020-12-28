@@ -1,5 +1,5 @@
 // --- Components
-import Section from 'elements/Section'
+import { Section } from 'components/elements'
 
 /**
  * Component

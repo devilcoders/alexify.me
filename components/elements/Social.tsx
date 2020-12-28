@@ -4,7 +4,7 @@ import {
   Dribbble,
   Github,
   Soundcloud,
-  Unsplash,
+  Unsplash
 } from '@icons-pack/react-simple-icons'
 
 // --- Components
@@ -15,32 +15,32 @@ const PROFILES = [
     id: 'github',
     url: 'https://github.com/devilcoders',
     icon: <Github />,
-    title: '',
+    title: 'GitHub'
   },
   {
     id: 'dribbble',
     url: 'https://dribbble.com/devilcoders',
     icon: <Dribbble />,
-    title: '',
+    title: 'Dribbble'
   },
   {
     id: 'soundcloud',
     url: 'https://soundcloud.com/user8060851/sets/kadath',
     icon: <Soundcloud />,
-    title: '',
+    title: 'Soundcloud'
   },
   {
     id: 'behance',
     url: 'https://www.behance.net/devilcoders',
     icon: <Behance />,
-    title: '',
+    title: 'Behance'
   },
   {
     id: 'unsplash',
     url: 'https://unsplash.com/@devilcoders',
     icon: <Unsplash />,
-    title: '',
-  },
+    title: 'Unsplash'
+  }
 ]
 
 /**

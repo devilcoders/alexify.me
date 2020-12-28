@@ -1,11 +1,11 @@
 // --- Components
-import NavLink from './NavLink'
+import { NavLink } from './NavLink'
 
 /**
  * Component
  */
 
-const Nav = () => (
+export const Nav = () => (
   <nav className="relative flex-1">
     <div className="flex justify-end font-mono p-6 font-medium uppercase space-x-8">
       <NavLink href="/">About</NavLink>
@@ -15,5 +15,3 @@ const Nav = () => (
     </div>
   </nav>
 )
-
-export default Nav

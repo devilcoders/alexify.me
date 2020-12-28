@@ -1,6 +1,5 @@
 // --- Components
-import Section from 'elements/Section'
-import { TimelineCard } from 'elements/TimelineCard'
+import { Section, TimelineCard } from 'components/elements'
 
 // --- Data
 import { EMPLOYMENT } from 'data'

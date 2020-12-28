@@ -17,7 +17,7 @@ type Props = {
  * Component
  */
 
-const MainLayout: React.FC<Props> = ({ title, children }) => (
+export const MainLayout: React.FC<Props> = ({ title, children }) => (
   <>
     <Head>
       <title>{title} :: Alexey Topolyanskiy</title>
@@ -28,5 +28,3 @@ const MainLayout: React.FC<Props> = ({ title, children }) => (
     </div>
   </>
 )
-
-export default MainLayout
