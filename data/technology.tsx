@@ -24,10 +24,48 @@ import {
   Wordpress,
   Php,
   Serverless,
-  Coffeescript
+  Coffeescript,
+  Postgresql,
+  Rabbitmq,
+  Redux
 } from '@icons-pack/react-simple-icons'
 
+// --- Icons
+import Coreldraw from '../assets/img/icons/coreldraw.svg'
+
 export const technologies = [
+  {
+    id: 'redux',
+    name: 'Redux',
+    icon: {
+      component: <Redux />,
+      color: '#764ABC'
+    }
+  },
+  {
+    id: 'postgresql',
+    name: 'PostgreSQL',
+    icon: {
+      component: <Postgresql />,
+      color: '#336791'
+    }
+  },
+  {
+    id: 'rabbitmq',
+    name: 'RabbiMQ',
+    icon: {
+      component: <Rabbitmq />,
+      color: '#FF6600'
+    }
+  },
+  {
+    id: 'coreldraw',
+    name: 'CorelDraw',
+    icon: {
+      component: <Coreldraw />,
+      color: '#53ae6d'
+    }
+  },
   {
     id: 'coffeescript',
     name: 'CoffeeScript',

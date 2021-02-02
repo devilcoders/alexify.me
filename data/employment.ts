@@ -4,14 +4,29 @@
 
 export const EMPLOYMENT = [
   {
+    id: 'contractbook',
+    date: 'Jan 2021 - Now',
+    position: 'Fullstack Developer',
+    company: 'ContractBook',
+    location: 'Warsaw / Copenhagen',
+    employment: 'Full-time',
+    description:
+      'I’m working on eventWorld.com ticket platform. I am responsible for frontend and design of the project after we pick it up from another software house.',
+    stack: {
+      backend: ['elixir', 'postgresql', 'rabbitmq'],
+      frontend: ['javascript', 'typescript', 'react', 'redux'],
+      design: ['figma']
+    }
+  },
+  {
     id: 'codeLab',
-    date: 'Feb 2020 - Jan 2020',
+    date: 'Feb 2020 - Dec 2020',
     position: 'Senior Frontend Developer & Designer',
     company: '360 Code Lab',
     location: 'Warsaw',
     employment: 'Full-time',
     description:
-      'I’m working on eventWorld.com ticket platform. I am responsible for frontend and design of the project after we pick it up from another software house.',
+      'I used to work on eventWorld.com ticket platform. I was responsible for frontend and design of the project after we pick it up from another software house.',
     stack: {
       backend: ['scala'],
       frontend: ['typescript', 'react', 'tailwindcss'],
@@ -196,7 +211,7 @@ export const EMPLOYMENT = [
   },
   {
     id: 'lakor',
-    date: 'June 2005 - Oct 2005',
+    date: 'Jun 2005 - Oct 2005',
     position: 'Technical Designer',
     company: 'Lakor',
     location: 'Lviv',
