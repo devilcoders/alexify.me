@@ -18,7 +18,7 @@ import {
   NextDotJs,
   Perl,
   Html5,
-  Css3,
+  CssThree,
   Adobeillustrator,
   Drupal,
   Wordpress,
@@ -110,7 +110,7 @@ export const technologies = [
     id: 'css',
     name: 'CSS',
     icon: {
-      component: <Css3 />,
+      component: <CssThree />,
       color: '#1572B6'
     }
   },

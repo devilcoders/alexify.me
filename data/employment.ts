@@ -219,7 +219,7 @@ export const EMPLOYMENT = [
     description:
       'First job after graduation. Preparing mockups for printing. Helping on the print line.',
     stack: {
-      design: ['coreldraw']
+      design: ['coreldraw', 'illustrator', 'photoshop']
     }
   }
 ]
